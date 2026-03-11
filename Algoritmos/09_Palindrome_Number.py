@@ -9,6 +9,7 @@ class Solution(object):
 
 sol = Solution()
 print(sol.isPalindrome(121))
+print(sol.isPalindrome(122))
 
 # Transformamos o número (x) em uma lista e convertemos com (str(x)) 
 # pois o número precisa virar uma string antes do uso
@@ -16,3 +17,4 @@ print(sol.isPalindrome(121))
 # Usamos reversed(lista) e não reversed(x) para inverter a lista não o número
 #
 # Depois retornamos o True ou False
+
